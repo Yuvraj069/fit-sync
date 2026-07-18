@@ -6,9 +6,15 @@
     "orientation": "portrait",
     "userInterfaceStyle": "automatic",
     "scheme": "fitsync",
-    "plugins": ["expo-router", "expo-dev-client"],
+    "plugins": [
+      "expo-router",
+      "expo-dev-client"
+    ],
     "experiments": {
       "typedRoutes": true
+    },
+    "android": {
+      "package": "com.yuvraj.fitsync"
     }
   }
 }

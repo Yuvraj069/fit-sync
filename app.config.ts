@@ -13,8 +13,18 @@ export default ({ config }: ConfigContext): ExpoConfig => ({
   version: '1.0.0',
   orientation: 'portrait',
   userInterfaceStyle: 'automatic',
+
+  //chage in scheme to add ios bundel. 
   scheme: 'fitsync',
-  plugins: ['expo-router', 'expo-dev-client'],
+
+ios: {
+  bundleIdentifier: 'com.yuvraj.fitsync',
+},
+
+plugins: ['expo-router'//, 'expo-dev-client'
+],
+//End of change
+
   experiments: {
     typedRoutes: true,
   },
