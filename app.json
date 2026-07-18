@@ -1,0 +1,14 @@
+{
+  "expo": {
+    "name": "FitSync",
+    "slug": "fitsync",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "userInterfaceStyle": "automatic",
+    "scheme": "fitsync",
+    "plugins": ["expo-router", "expo-dev-client"],
+    "experiments": {
+      "typedRoutes": true
+    }
+  }
+}

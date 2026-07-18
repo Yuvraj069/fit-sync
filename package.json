@@ -1,0 +1,46 @@
+{
+  "name": "fitsync",
+  "version": "1.0.0",
+  "private": true,
+  "main": "expo-router/entry",
+  "scripts": {
+    "start": "expo start --dev-client",
+    "android": "expo start --android --dev-client",
+    "ios": "expo start --ios --dev-client",
+    "lint": "eslint . --max-warnings=0",
+    "format": "prettier . --write",
+    "format:check": "prettier . --check",
+    "typecheck": "tsc --noEmit"
+  },
+  "dependencies": {
+    "@expo/metro-runtime": "~6.1.2",
+    "expo": "~54.0.0",
+    "expo-constants": "~18.0.10",
+    "expo-dev-client": "~6.0.0",
+    "expo-linking": "~8.0.8",
+    "expo-router": "~6.0.0",
+    "expo-status-bar": "~3.0.8",
+    "expo-system-ui": "~6.0.7",
+    "lucide-react-native": "^1.25.0",
+    "nativewind": "^4.1.23",
+    "react": "19.1.0",
+    "react-native": "0.81.5",
+    "react-native-gesture-handler": "~2.28.0",
+    "react-native-reanimated": "~4.1.1",
+    "react-native-safe-area-context": "~5.6.0",
+    "react-native-screens": "~4.16.0",
+    "react-native-svg": "^15.15.5",
+    "tailwindcss": "^3.4.17"
+  },
+  "devDependencies": {
+    "@eslint/js": "^9.36.0",
+    "@types/react": "~19.1.0",
+    "eslint": "^9.36.0",
+    "eslint-config-expo": "~10.0.0",
+    "eslint-config-prettier": "^10.1.8",
+    "eslint-plugin-import": "^2.31.0",
+    "prettier": "^3.5.3",
+    "typescript": "~5.9.2",
+    "typescript-eslint": "^8.44.1"
+  }
+}
